@@ -3,10 +3,9 @@
   "version": "0.0.1",
   "description": "Koans for achieving a JSLint transcendence",
   "main": "index.js",
-  "dependencies": {
-    "tape": "^4.6.3"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "jslint-node": "^1.2.4",
     "tape": "^4.6.3"
   },
   "scripts": {
