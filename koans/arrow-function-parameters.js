@@ -1,7 +1,7 @@
 /*jslint
     es6
 */
-//Some operators can be deceiving and lure you away from the path of virtue
+//A function where arguments are difficult to spot may deceive your perception
 
 let numbers = [1, 2, 3, 4];
 
