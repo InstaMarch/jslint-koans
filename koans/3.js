@@ -12,3 +12,5 @@ with (russianDoll.playWithinAPlay.recursion.sharingGoogleHangoutsScreen) {
     parallelMirrors = true;
     thePyramidSchemeToEndAllPyramidSchemes = true;
 }
+
+module.exports = russianDoll;
