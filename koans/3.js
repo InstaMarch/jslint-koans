@@ -1,3 +1,7 @@
+/*jslint
+    node, es6
+*/
+
 //You may transcend beyond the grasp of an idol of machinery
 
 var russianDoll = {
