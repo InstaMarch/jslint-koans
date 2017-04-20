@@ -21,7 +21,7 @@ const checkKoan = function (koanName) {
                     });
                     if(result.ok === false) {
                         t.comment("There is a problem with the following code:\n" + data);
-                        t.comment("The code is located at ./koans/" + koanName + ".js");
+                        t.comment("The code may be improved at ./koans/" + koanName + ".js");
                     }
                 });
         }); 
