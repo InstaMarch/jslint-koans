@@ -4,10 +4,10 @@
 const fs = require("fs");
 const linter = require("jslint-node");
 
-const checkKoan = function (koanNumber) {
+const checkKoan = function (koanName) {
     return function (t) {
         "use strict";
-        fs.readFile("./koans/" + koanNumber + ".js", "utf8", function(error, data) {
+        fs.readFile("./koans/" + koanName + ".js", "utf8", function(error, data) {
             let ourCode = data;
             t.plan(1);
 
@@ -21,6 +21,7 @@ const checkKoan = function (koanNumber) {
                     });
                     if(result.ok === false) {
                         t.comment("There is a problem with the following code:\n" + data);
+                        t.comment("The code is located at ./koans/" + koanName + ".js");
                     }
                 });
         }); 
