@@ -21,11 +21,11 @@ test("Whitespace should be precise", checkKoan("whitespace"));
 
 //test("Even if it were useful we would have to tiptoe very carefully to use a \"with statement\" correctly and that is not a guaranty against trouble", checkKoan("with"));
 
-//test("The Russian doll should contain at the end of its nested childrentwo children: parallelMirrors and thePyramidSchemeToEndAllPyramidSchemes who both evaluate to true", function (t){
+/*test("The Russian doll should contain at the end of its nested childrentwo children: parallelMirrors and thePyramidSchemeToEndAllPyramidSchemes who both evaluate to true", function (t){
     t.plan(2);
     t.true(russianDoll.playWithinAPlay.recursion.sharingGoogleHangoutsScreen.parallelMirrors);
     t.true(russianDoll.playWithinAPlay.recursion.sharingGoogleHangoutsScreen.thePyramidSchemeToEndAllPyramidSchemes);
-});
+});*/
 
 //test("Ambiguous arguments are tought to read", checkKoan("arrow-function-parameters"));
 
