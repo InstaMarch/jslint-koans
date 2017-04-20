@@ -6,6 +6,7 @@
   "dependencies": {},
   "devDependencies": {
     "jslint-node": "^1.2.4",
+    "tap-bail": "^1.0.0",
     "tape": "^4.6.3"
   },
   "scripts": {
